@@ -1,5 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Noodle from './components/Card'
+import Jumbo from './components/Jumbotron'
 import logo from './ferret_noodle.png';
 import icon from './insta.png';
 import './App.css';
@@ -13,20 +15,19 @@ function App() {
           <hr />
           NOODLELAND!!!
         </p>
-        <a
-          className="App-link"
-          href="https://www.instagram.com/landofnoodle/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        
         
         <p><img src={icon} className="App-icon" alt="icon" /></p>
         
-        <button href="https://www.instagram.com/landofnoodle/" type="submit">Submit to my cuteness</button>
-          
+        <p>
+        <Noodle> </Noodle> 
+        </p>
+
+         <Jumbo fluid>
+            
+          </Jumbo>
+
         
-         
-        </a>
       </header>
     </div>
   );
