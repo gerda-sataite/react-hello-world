@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from './ferret_noodle.png';
+import icon from './insta.png';
 import './App.css';
 
 function App() {
@@ -8,15 +10,22 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <hr />
+          NOODLELAND!!!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/landofnoodle/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        
+        <p><img src={icon} className="App-icon" alt="icon" /></p>
+        
+        <button href="https://www.instagram.com/landofnoodle/" type="submit">Submit to my cuteness</button>
+          
+        
+         
         </a>
       </header>
     </div>

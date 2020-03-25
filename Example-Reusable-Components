@@ -1,0 +1,22 @@
+function Person(props) {
+    return (
+        <p><b>Firstname: </b> {props.name}</p>
+        <p><b>Organisation: </b> {props.company}</p>
+    )
+}
+
+function Person(props) {
+    return (
+        <div>
+            <Attribute title="Firstname" value={props.name} />
+            <Attribute title="Organisation" value={props.company} />
+        </div>
+    )
+}
+
+
+function Attribute(props) {
+    return (
+        <p><b>{props.title}:</b> {props.value}</p>
+    )
+}
