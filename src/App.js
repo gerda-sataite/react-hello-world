@@ -30,6 +30,8 @@ function App() {
         <p> Dislikes: </p>
         <p><Horizontal item1="Being good" item2="Using the litterbox" item3="Salmon oil" item4="Eggs"> </Horizontal></p>
         
+        
+
       </header>
     </div>
   );
