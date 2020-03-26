@@ -36,6 +36,21 @@ h1 {
 p {
   color: black
 }
+
+.column {
+  float: left;
+  column-gap: 20px;
+}
+
+.left, .right {
+  width: 25%;
+  column-gap: 20px;
+}
+
+.middle {
+  width: 50%;
+}
+
 .App-link {
   color: #61dafb;
 }
