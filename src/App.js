@@ -29,7 +29,7 @@ function App() {
           <div class="column">
                <p><Jumbo> </Jumbo> </p>
                <p><b>Likes: </b> </p>
-               <p><Horizontal 
+               <p><Horizontal
                     item1="Bite toes" 
                     item2="Eat" 
                     item3="Sleep" 
