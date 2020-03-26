@@ -6,9 +6,9 @@ function Jumbo() {
 
         <Jumbotron fluid>
             <Container>
-              <h1>Wonky noodle</h1>
+              <h1>I am The Great Noodle. Conqueror of Worlds. Defiler of the carpet. Destroyer of slippers.</h1>
               <p>
-              Don't eat me.
+              Fear me.
               </p>
             </Container>
           </Jumbotron>
