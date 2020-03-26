@@ -13,17 +13,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p /> 
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" /> 
         <p />
+        
         <div class="grid">
           <div class="column">
             <p>
-          
                NOODLELAND!!!
-            </p>
-            <p>
-              <Noodle> </Noodle> 
-            </p>
+            </p> 
+            <p> <Noodle> </Noodle> </p> 
           </div>
 
           <div class="column">
@@ -35,8 +33,8 @@ function App() {
           </div>
 
           <div class="column">
-            <p>I am Noodle. Conqueror of Worlds.</p>
-            
+            <p>I am The Great Noodle. Conqueror of Worlds. Defiler of the carpet. Destroyer of slippers. </p>
+            <p>Fear me.</p>
             
           </div>      
 
