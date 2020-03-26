@@ -31,16 +31,11 @@
 }
 
 h1 {
-  color: blue
+  color: black;
 }
 p {
   color: black
 }
-
-.element {
-  margin:0 2.5%;
-  width:20%;
-  }
 
 .grid {
   display: grid;

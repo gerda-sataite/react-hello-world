@@ -12,6 +12,7 @@ function App() {
     
     <div className="App">
       <header className="App-header">
+        <p /> 
         <img src={logo} className="App-logo" alt="logo" />
         <p />
         <div class="grid">
