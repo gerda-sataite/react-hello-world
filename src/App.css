@@ -37,14 +37,27 @@ p {
   color: black
 }
 
+.element {
+  margin:0 2.5%;
+  width:20%;
+  }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 10px;
+}
+
 .column {
-  float: left;
-  column-gap: 20px;
+  background-color: white;
+  padding: 10px 20px;
+  text-align: center;
+  width: 30px 50px 30px;
 }
 
 .left, .right {
   width: 25%;
-  column-gap: 20px;
 }
 
 .middle {
