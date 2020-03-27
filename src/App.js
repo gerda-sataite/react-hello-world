@@ -5,6 +5,7 @@ import Jumbo from './components/Jumbotron';
 import Horizontal from './components/Horizontal';
 import ListGroup from './components/Dislikes';
 import Information from './components/Information'
+import Music from './components/Music';
 import logo from './ferret_noodle.png';
 import icon from './plz.PNG';
 import './App.css';
@@ -24,6 +25,7 @@ function App() {
                NOODLELAND!!!
             </h1> 
             <p> <Noodle> </Noodle> </p> 
+            <p><Music /></p>
           </div>
 
           <div class="column">
