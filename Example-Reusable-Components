@@ -20,3 +20,19 @@ function Attribute(props) {
         <p><b>{props.title}:</b> {props.value}</p>
     )
 }
+Function Information(props) {
+    return (
+        <div>
+            <Attribute title="Age" value={props.age} />
+            <Attribute title="Nationality" value={props.nationality} />
+            <Attribute title="Personality" value={props.personality} />
+        </div>
+    )
+}
+
+function Attribute(props) {
+    return (
+        <p><b>{props.title}:</b> {props.value}</p>
+    )
+}
+ 
