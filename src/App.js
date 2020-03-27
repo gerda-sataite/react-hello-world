@@ -44,7 +44,8 @@ function App() {
               item1="Being good"
               item2="Using the litterbox"
               item3="Salmon oil"
-              item4="Eggs">
+              item4="Eggs"
+              item5="Bath time">
             </ListGroup>
             </p>
           </div>
